@@ -1201,7 +1201,7 @@ if (ErrorLevel == 0)
 				LeftX := RightX - (ScreenWidth // 4)
 				TopY := BottomY - (ScreenHeight // 4)
 				sleep, 100
-				ImageSearch, FoundX, FoundY, LeftX, TopY, RightX, BottomY, *90 %ImagePath%
+				ImageSearch, FoundX, FoundY, LeftX, TopY, RightX, BottomY, *47 %ImagePath%
 				if (ErrorLevel = 0) {
 					click, Left, %middleX%, %middleY%
 					click, Left, %middleX%, %middleY%
