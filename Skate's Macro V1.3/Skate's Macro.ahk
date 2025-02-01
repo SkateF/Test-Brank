@@ -480,7 +480,6 @@ SaveAllSettings:
     IniWrite, % RightAnkleBreakMultiplier, %SelectedFile%, Minigame, RightAnkleBreakMultiplier
     IniWrite, % LeftAnkleBreakMultiplier, %SelectedFile%, Minigame, LeftAnkleBreakMultiplier
     IniWrite, % (FarmCanal ? "true" : "false"), %SelectedFile%, Farm, FarmCanal
-    IniWrite, % (DontRelyOnNoCameraShake ? "true" : "false"), %SelectedFile%, Farm, DontRelyOnNoCameraShake
 
     MsgBox, Settings have been saved to %SelectedFile%
 return
