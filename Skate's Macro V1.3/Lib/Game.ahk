@@ -908,7 +908,7 @@ if (BarCalcFailsafeCounter >= BarCalculationFailsafe)
 return
 
 BarMinigame:
-if (baitmode == true) {
+if (baitfix == true) {
 	sleep 900
 }
 If (Seraphic == true) {
